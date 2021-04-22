@@ -104,7 +104,7 @@ export default {
   align-items: flex-start;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 20px;
+  margin: 40px;
   
   a {
     text-decoration: none;

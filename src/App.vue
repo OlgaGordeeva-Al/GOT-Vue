@@ -6,6 +6,11 @@
     </header>
     <div class="content">
     <router-view></router-view>
+    <footer class="footer">
+      <p>Moscow apr 2021</p>
+      <p>some information abour rigths....</p>
+    </footer>
+    
   </div>
   </div>
 </template>
@@ -40,8 +45,16 @@
       transform: translateY(-70%);
     }
   }
-  .content{
-    display: flex;
-    justify-content: center;
+  .footer{
+    color: rgb(248, 248, 245);
+    font-weight: 100;
+    font-size: 12px;
+    margin-top: 20px;
+    padding-top: 2%;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: #535554;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   }
 </style>
