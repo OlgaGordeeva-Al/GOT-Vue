@@ -112,6 +112,7 @@ export default {
 
     &:hover,
     &:active{
+      opacity: .9;
       color:rgb(24, 40, 119);
     }
   }
@@ -137,6 +138,7 @@ export default {
   &__img {
     width: 100%;
     border-radius: 5px 5px 0 0;
+    opacity: .9;
   }
 
   &__name {
